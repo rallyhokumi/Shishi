@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>私診 — 心の中を、見る</title>
+<meta name="description" content="あなたの無意識を暴く、文芸的心理診断サイト。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700;800&family=Zen+Old+Mincho:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="brand">
+  <a href="index.html">
+    <span class="brand-mark">私診</span>
+    <span class="brand-tag">S H I S H I N &nbsp; — &nbsp; あ な た の 中 を 、 見 る</span>
+  </a>
+</header>
+
+<div class="frame">
+  <div class="inner">
+
+    <p class="intro">
+      ここは、診断室です。占いではありません。あなた自身が答えた言葉から、あなたがどんな神を信じ、どんな獣を飼い、どんな傷を抱えて生きているのかを抽出する、紙とインクの装置のような場所です。気が向いた診断を選んで、お入りください。診断は無料、時間はそれぞれ三分前後。誰にも結果は知られません。
+    </p>
+
+    <nav class="list">
+
+      <a class="list-item" href="diag/01-god.html">
+        <span class="list-no">第 一 診</span>
+        <div class="list-title">あなたのロックンロールの神様診断</div>
+        <p class="list-desc">誰もが心の奥に住まわせている、もう死んでしまった神。あなたが本当は何に祈っているのかを、十問で暴きます。</p>
+        <div class="list-meta">全 1 0 問 / 約 3 分</div>
+      </a>
+
+      <a class="list-item" href="diag/02-wound.html">
+        <span class="list-no">第 二 診</span>
+        <div class="list-title">あなたの恋愛における致命傷診断</div>
+        <p class="list-desc">あなたが必ず同じ場所で傷つくのは、運命でも相性でもなく、構造の問題です。その構造を、解剖します。</p>
+        <div class="list-meta">全 1 0 問 / 約 3 分</div>
+      </a>
+
+      <a class="list-item" href="diag/03-material.html">
+        <span class="list-no">第 三 診</span>
+        <div class="list-title">あなたが本当は何で出来ているか診断</div>
+        <p class="list-desc">人は皆、何かしらの素材で出来ています。骨でも、糖でも、煙でもなく — あなたを構成している本当の物質を、特定します。</p>
+        <div class="list-meta">全 1 0 問 / 約 3 分</div>
+      </a>
+
+      <div class="list-item coming">
+        <span class="list-no">第 四 診</span>
+        <div class="list-title">準 備 中</div>
+        <p class="list-desc">— 近 日 開 室 —</p>
+      </div>
+
+    </nav>
+
+    <p class="intro" style="margin-top:36px;font-size:13px;color:var(--ink-soft);">
+      ※ 本サイトの診断結果は、医学的・心理学的な診断ではありません。読み物として、ご自身の内面を眺める一つの鏡としてお楽しみください。
+    </p>
+
+  </div>
+</div>
+
+<footer class="footer">
+  私 診 &nbsp; / &nbsp; S H I S H I N &nbsp; <br>
+  © <span id="year"></span>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
